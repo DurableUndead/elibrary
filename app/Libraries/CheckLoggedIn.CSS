@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Libraries;
+
+class CheckLoggedIn
+{
+    public function check($loggedIn)
+    {
+        if (!$loggedIn) {
+            return redirect()->to('/login');
+        }
+    }
+}

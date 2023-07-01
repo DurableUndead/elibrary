@@ -1,0 +1,769 @@
+INFO - 2023-06-25 06:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:33:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 06:47:21 --> Undefined variable $nama_peminjam
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 213.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_peminjam', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 06:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 06:48:01 --> Undefined variable $nama
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 213.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 06:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 06:52:44 --> Undefined variable $nama_peminjam
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 213.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nama_peminjam', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 06:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 06:55:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 06:55:57 --> Undefined variable $peminjam
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 213.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(213): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peminjam', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 213)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:07:50 --> Undefined array key "nama_peminjam"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 216.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:09:06 --> Undefined array key "nama_peminjam"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 216.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:10:24 --> Undefined array key "nama_peminjam"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 216.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:11:24 --> Undefined array key "nama_peminjam"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 216.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:11:59 --> Undefined array key "nama_peminjam"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 216.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(216): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 216)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:13:42 --> syntax error, unexpected end of file
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 379.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 3 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:14:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:14:04 --> Undefined variable $peminjam
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 215.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(215): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $peminjam', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 215)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(55): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:18:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-25 07:20:01 --> mysqli_sql_exception: Column 'nama_peminjam' cannot be null in C:\xampp2\htdocs\e_library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\e_library\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp2\htdocs\e_library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp2\htdocs\e_library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp2\htdocs\e_library\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp2\htdocs\e_library\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp2\htdocs\e_library\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp2\htdocs\e_library\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp2\htdocs\e_library\app\Controllers\CPeminjamanBuku.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->createPeminjamanBuku()
+#9 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+#10 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp2\htdocs\e_library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp2\htdocs\e_library\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#13 {main}
+CRITICAL - 2023-06-25 07:20:01 --> Column 'nama_peminjam' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (:nama_peminjam:, :kelas_peminjam:, :kelompok_kelas_peminjam:, :buku_dipinjam:, :jumlah_buku_dipinjam:, :tanggal_peminjaman:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CPeminjamanBuku.php(98): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->createPeminjamanBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:20:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-25 07:20:11 --> mysqli_sql_exception: Column 'nama_peminjam' cannot be null in C:\xampp2\htdocs\e_library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\e_library\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp2\htdocs\e_library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp2\htdocs\e_library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp2\htdocs\e_library\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp2\htdocs\e_library\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp2\htdocs\e_library\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp2\htdocs\e_library\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp2\htdocs\e_library\app\Controllers\CPeminjamanBuku.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->createPeminjamanBuku()
+#9 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+#10 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp2\htdocs\e_library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp2\htdocs\e_library\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#13 {main}
+CRITICAL - 2023-06-25 07:20:11 --> Column 'nama_peminjam' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (:nama_peminjam:, :kelas_peminjam:, :kelompok_kelas_peminjam:, :buku_dipinjam:, :jumlah_buku_dipinjam:, :tanggal_peminjaman:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CPeminjamanBuku.php(98): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->createPeminjamanBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-25 07:22:17 --> mysqli_sql_exception: Column 'nama_peminjam' cannot be null in C:\xampp2\htdocs\e_library\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp2\htdocs\e_library\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp2\htdocs\e_library\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp2\htdocs\e_library\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp2\htdocs\e_library\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp2\htdocs\e_library\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp2\htdocs\e_library\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp2\htdocs\e_library\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp2\htdocs\e_library\app\Controllers\CPeminjamanBuku.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->createPeminjamanBuku()
+#9 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+#10 C:\xampp2\htdocs\e_library\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp2\htdocs\e_library\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp2\htdocs\e_library\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdoc...')
+#13 {main}
+CRITICAL - 2023-06-25 07:22:17 --> Column 'nama_peminjam' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (NULL, \'Kelas 1\', \'D\', \'Sepeda\', \'3\', \'2020-01-20\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `peminjaman_buku` (`nama_peminjam`, `kelas_peminjam`, `kelompok_kelas_peminjam`, `buku_dipinjam`, `jumlah_buku_dipinjam`, `tanggal_peminjaman`) VALUES (:nama_peminjam:, :kelas_peminjam:, :kelompok_kelas_peminjam:, :buku_dipinjam:, :jumlah_buku_dipinjam:, :tanggal_peminjaman:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CPeminjamanBuku.php(98): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->createPeminjamanBuku()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:23:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:23:32 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CPeminjamanBuku.php on line 142.
+ 1 APPPATH\Controllers\CPeminjamanBuku.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp2\\htdocs\\e_library\\app\\Controllers\\CPeminjamanBuku.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->editPeminjamanBuku('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:24:33 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CPeminjamanBuku.php on line 142.
+ 1 APPPATH\Controllers\CPeminjamanBuku.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp2\\htdocs\\e_library\\app\\Controllers\\CPeminjamanBuku.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->editPeminjamanBuku('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:24:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:25:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:25:00 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CPeminjamanBuku.php on line 142.
+ 1 APPPATH\Controllers\CPeminjamanBuku.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp2\\htdocs\\e_library\\app\\Controllers\\CPeminjamanBuku.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->editPeminjamanBuku('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 07:26:20 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\CPeminjamanBuku.php on line 142.
+ 1 APPPATH\Controllers\CPeminjamanBuku.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp2\\htdocs\\e_library\\app\\Controllers\\CPeminjamanBuku.php', 142)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->editPeminjamanBuku('1')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 07:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:28:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:36:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:41:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:43:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:43:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:44:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:46:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:46:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:50:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:50:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:53:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:55:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 07:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 08:27:14 --> Undefined array key "nama_admin"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 195.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_admin"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(59): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 08:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 08:27:36 --> Undefined variable $a
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 195.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $a', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 195)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(59): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 08:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:29:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 08:35:54 --> Undefined array key "nama"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 282.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 282)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(59): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 08:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 08:36:33 --> Undefined variable $data
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 282.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(282): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 282)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(59): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 08:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 08:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 09:14:01 --> Undefined array key "jumlah_buku_dikembalikan"
+in APPPATH\Views\admin\daftar\viewpengembalianbuku.php on line 69.
+ 1 APPPATH\Views\admin\daftar\viewpengembalianbuku.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah_buku_dikembalikan"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpengembalianbuku', [], true)
+ 5 APPPATH\Controllers\CPengembalianBuku.php(61): view('admin/daftar/viewpengembalianbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 09:14:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:32:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:34:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 09:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:01:10 --> Undefined array key "tanggal_penerimaan_buku"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 118.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_penerimaan_buku"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 118)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(59): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:01:44 --> Undefined array key "tanggal_pengembalian_buku"
+in APPPATH\Views\admin\daftar\viewpeminjamanbuku.php on line 118.
+ 1 APPPATH\Views\admin\daftar\viewpeminjamanbuku.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tanggal_pengembalian_buku"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php', 118)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpeminjamanbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpeminjamanbuku', [], true)
+ 5 APPPATH\Controllers\CPeminjamanBuku.php(59): view('admin/daftar/viewpeminjamanbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:24:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:24:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\CPeminjamanBuku.php(247): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPeminjamanBuku->pindahKePengembalianBuku('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPeminjamanBuku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:24:56 --> Undefined array key "nama_peminjam"
+in APPPATH\Controllers\CPengembalianBuku.php on line 49.
+ 1 APPPATH\Controllers\CPengembalianBuku.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Controllers\\CPengembalianBuku.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:27:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:27:26 --> Undefined array key "nama_peminjam"
+in APPPATH\Controllers\CPengembalianBuku.php on line 49.
+ 1 APPPATH\Controllers\CPengembalianBuku.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Controllers\\CPengembalianBuku.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:28:01 --> Undefined array key "buku_dipinjam"
+in APPPATH\Controllers\CPengembalianBuku.php on line 52.
+ 1 APPPATH\Controllers\CPengembalianBuku.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "buku_dipinjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Controllers\\CPengembalianBuku.php', 52)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:28:17 --> Undefined array key "kelas_pengembali "
+in APPPATH\Views\admin\daftar\viewpengembalianbuku.php on line 51.
+ 1 APPPATH\Views\admin\daftar\viewpengembalianbuku.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "kelas_pengembali "', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php', 51)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpengembalianbuku', [], true)
+ 5 APPPATH\Controllers\CPengembalianBuku.php(61): view('admin/daftar/viewpengembalianbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 10:28:25 --> Undefined array key "nama_peminjam"
+in APPPATH\Views\admin\daftar\viewpengembalianbuku.php on line 126.
+ 1 APPPATH\Views\admin\daftar\viewpengembalianbuku.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_peminjam"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php', 126)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpengembalianbuku', [], true)
+ 5 APPPATH\Controllers\CPengembalianBuku.php(61): view('admin/daftar/viewpengembalianbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 10:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:33:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:34:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:57:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 10:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:37:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:45:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 11:45:15 --> Undefined variable $white
+in APPPATH\Views\admin\daftar\viewpengembalianbuku.php on line 79.
+ 1 APPPATH\Views\admin\daftar\viewpengembalianbuku.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $white', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php', 79)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\daftar\\viewpengembalianbuku.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/daftar/viewpengembalianbuku', [], true)
+ 5 APPPATH\Controllers\CPengembalianBuku.php(61): view('admin/daftar/viewpengembalianbuku', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 11:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:48:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 11:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:01:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 12:19:16 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 924.
+ 1 SYSTEMPATH\BaseModel.php(924): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(756): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\CPengembalianBuku.php(107): CodeIgniter\Model->update('2', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CPengembalianBuku->pengembalianBeberapaBuku('2')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CPengembalianBuku))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 12:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:43:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-25 12:47:43 --> Undefined array key "name"
+in APPPATH\Views\admin\admin.php on line 17.
+ 1 APPPATH\Views\admin\admin.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\admin.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp2\\htdocs\\e_library\\app\\Views\\admin\\admin.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('admin/admin', [], true)
+ 5 APPPATH\Controllers\CAdmin.php(71): view('admin/admin')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\CAdmin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CAdmin))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp2\\htdocs\\e_library\\public\\index.php')
+INFO - 2023-06-25 12:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:48:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 12:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:02:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:07:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:13:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:13:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:17:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:22:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-25 13:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

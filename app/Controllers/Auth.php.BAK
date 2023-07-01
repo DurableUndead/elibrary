@@ -1,0 +1,52 @@
+<?php
+
+namespace App\Controllers;
+
+use CodeIgniter\Controller;
+
+class Auth extends Controller
+{
+    public function login()
+    {
+        $session = session();
+
+        if ($session->get('admin_username')) {
+            // Logika jika session admin_username ada
+        } else {
+            return redirect()->to('/login'); // Redirect ke halaman login
+        }
+
+        // Jika form login disubmit
+        if ($this->request->getMethod() === 'post') {
+            $username = $this->request->getPost('username');
+            $password = $this->request->getPost('password');
+
+            // Lakukan validasi login
+            // Misalnya, lakukan query ke database untuk memeriksa kecocokan username dan password
+
+            // Contoh validasi sederhana, cek apakah username dan password sesuai
+            if ($username === 'admin' && $password === 'password') {
+                // Jika login berhasil, simpan username admin ke session
+                $this->session->set('admin_username', $username);
+
+                // Redirect ke halaman admin
+                return redirect()->to(base_url('admin'));
+            } else {
+                // Jika login gagal, tampilkan pesan error
+                $data['error'] = 'Username atau password salah!';
+            }
+        }
+
+        // Tampilkan halaman login
+        return view('login', $data);
+    }
+
+    public function logout()
+    {
+        // Hapus semua data session
+        $this->session->destroy();
+
+        // Redirect ke halaman login
+        return redirect()->to(base_url('auth/login'));
+    }
+}
