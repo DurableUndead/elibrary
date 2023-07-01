@@ -3,16 +3,16 @@
 ## Keterangan
 
 Website Menampilkan peminjaman buku.
-untuk client : localhost:8080/elibrary
-untuk admin : localhost:8080/elibrary/admin (atau login dulu : /elibrary/login)
+untuk client : localhost:8080/elibrary/
+untuk admin : localhost:8080/elibrary/admin (atau login dulu : /elibrary/login).
 
-jika ada bug, coba install composer setelah meletakan elibrary di htdocs XAMPP
+jika ada bug, coba install composer setelah meletakan elibrary di htdocs XAMPP.
 
-sql ada di BACKUP/sql/
-import ke phpmyadmin
-login dengan admin@admin.com
-dan password asdasdasd 
-di /elibrary/login
+sql ada di BACKUP/sql/.
+import ke phpmyadmin.
+login dengan admin@admin.com.
+dan password asdasdasd.
+di /elibrary/login.
 
 ## What is CodeIgniter?
 
