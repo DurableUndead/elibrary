@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 01, 2023 at 06:49 PM
+-- Generation Time: Jul 01, 2023 at 06:53 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -41,8 +41,6 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `nama`, `email`, `password`, `created_at`, `pin`) VALUES
-(1, 'Alfi 2507', 'alfiansyahachmad2507@gmail.com', '$2y$10$ZH7/OdRa7Xca2rNaC4Xi6u6UOGzxV9yhn6MFqtnY5R0nNpDOiQIrq', '2023-06-13 15:37:35', 123123),
-(3, 'Alfi 2505', 'alfiansyahachmad2505@gmail.com', '$2y$10$61JQ0qt9wtr7m0XTAvQQf.sfL5VIZq31pDIlDqBy3cY7S32g.dpUC', '2023-06-14 14:22:30', 123123),
 (18, 'Alfiansyah Achmad', 'admin@admin.com', '$2y$10$.rUwmfiSCtgOgm7DXl0KE.EgDf9o7i8iM12Sxo5dWXybEBYK9/FNW', '2023-06-18 12:03:12', 123123),
 (22, 'Alfiansyah Achmad 2', 'kulkas123@gmail.com', '$2y$10$VNgQ24V02l/hk5.v44Ex5eaG7D.TdgsL.YTnMQmm71E3vLa4H9ypG', '2023-06-27 00:34:04', 123123);
 
@@ -57,13 +55,6 @@ CREATE TABLE `admin_token` (
   `admin_id` int(11) NOT NULL,
   `auth_key` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `admin_token`
---
-
-INSERT INTO `admin_token` (`id`, `admin_id`, `auth_key`) VALUES
-(141, 18, 'DwCCeyzxWu8llT4KcyFqBgCYfllxRaJBarpd2seDnG8E4lvRHSU5eTM0vn79lv8uwMrAbxR6AmNqKTWzppxaSauW3o6ziVShExEi');
 
 -- --------------------------------------------------------
 
