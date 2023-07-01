@@ -1,5 +1,19 @@
 # CodeIgniter 4 Framework
 
+## Keterangan
+
+Website Menampilkan peminjaman buku.
+untuk client : localhost:8080/elibrary
+untuk admin : localhost:8080/elibrary/admin (atau login dulu : /elibrary/login)
+
+jika ada bug, coba install composer setelah meletakan elibrary di htdocs XAMPP
+
+sql ada di BACKUP/sql/
+import ke phpmyadmin
+login dengan admin@admin.com
+dan password asdasdasd 
+di /elibrary/login
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
