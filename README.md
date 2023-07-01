@@ -8,7 +8,7 @@ Untuk client : localhost:8080/elibrary/
 
 Untuk admin : localhost:8080/elibrary/admin (atau login dulu : /elibrary/login)
 
-Jika ada bug, coba install composer setelah meletakan elibrary di htdocs XAMPP.
+Jika ada bug ketika php spark serve setelah meletakan elibrary di htdocs XAMPP, coba install composer.
 
 SQL ada di BACKUP/sql/
 
